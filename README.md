@@ -1,43 +1,79 @@
-# Hi, I'm Nicholas Reid
+# Nicholas Reid
 
-**AI Integrator · Software Builder · Operational Systems & Automation**
+### Software Engineer · AI Integrator · Operational Systems & Automation
 
-I build internal software that turns manual workflows, fragmented data, and repetitive operational processes into reliable, auditable systems.
+I build software that turns fragmented data, repetitive workflows, and operational processes into reliable systems.
 
-My work sits at the intersection of **software engineering, automation, data, APIs, and operations**. I’m particularly interested in systems where the difficult part isn't just writing code — it's understanding the business process well enough to decide what software should automate, what it should validate, and what still requires a person.
+My work focuses on the intersection of **software engineering, automation, APIs, data platforms, and AI-enabled internal tools**. I enjoy problems where understanding the underlying business process matters just as much as writing the code.
+
+---
 
 ## Featured Project
 
 ### [OpsPilot](https://github.com/nickreid524-alt/OpsPilot)
 
-Operational intake and exception automation platform built with **FastAPI, Next.js, PostgreSQL, and Docker**.
+A full-stack operational intake and exception-management platform built to process inconsistent supplier data through a controlled, auditable workflow.
 
-OpsPilot accepts inconsistent CSV/XLSX files from multiple suppliers and automatically:
+**Python · FastAPI · PostgreSQL · Next.js · TypeScript · Docker · GitHub Actions**
 
-* detects the supplier format
-* maps records into a canonical schema
-* normalizes inconsistent values
-* validates business rules
-* detects exact and ambiguous duplicates
-* routes exceptions for human review
-* records decisions in an append-only audit trail
+**1,257 synthetic records · 88.1% automatically processed · 236-test suite**
 
-**1,257 synthetic records · 88% automatically processed · 211 automated tests · sub-millisecond processing per record**
+OpsPilot:
 
-Built entirely with synthetic data as an independent engineering portfolio project.
+- Detects incoming supplier formats
+- Maps inconsistent records into a canonical domain model
+- Normalizes and validates operational data
+- Detects exact and ambiguous duplicates
+- Routes exceptions for human review
+- Supports controlled corrections and re-evaluation
+- Maintains an auditable history of review decisions
+- Preserves original source evidence through the ingestion pipeline
+
+The project includes PostgreSQL migrations, Dockerized deployment, automated CI, type checking, linting, synthetic demo data, and PostgreSQL-specific regression coverage.
+
+**[View OpsPilot →](https://github.com/nickreid524-alt/OpsPilot)**
+
+---
 
 ## Tech
 
-**Backend:** Python · FastAPI · REST APIs
-**Data:** PostgreSQL · SQL · Alembic
-**Frontend:** Next.js · TypeScript
-**Infrastructure:** Docker · GitHub Actions
-**Engineering:** Automated Testing · Data Validation · System Integration · Workflow Automation
+**Languages**  
+Python · TypeScript · SQL
 
-## What I'm Focused On
+**Backend**  
+FastAPI · REST APIs · SQLAlchemy · Alembic
 
-I'm continuing to build portfolio projects around:
+**Frontend**  
+Next.js · React
 
-**Operational platforms · data-intensive applications · API integrations · workflow automation · AI-enabled internal tools**
+**Data**  
+PostgreSQL · Data Validation · Data Normalization
 
-I care about software that solves actual operational problems — not technology for its own sake.
+**Infrastructure & Engineering**  
+Docker · GitHub Actions · Automated Testing · CI/CD · Git
+
+---
+
+## What I'm Building
+
+I'm particularly interested in:
+
+- Internal operational platforms
+- Workflow automation
+- Data-intensive applications
+- API integrations
+- AI-enabled business tools
+- Systems that combine automation with human review
+- Software that replaces spreadsheet-heavy or manual processes
+
+---
+
+## Engineering Philosophy
+
+I care about software that solves real operational problems.
+
+That means building systems that are not only functional, but also **testable, auditable, maintainable, and understandable by the people who depend on them**.
+
+---
+
+More projects coming as I continue building out my engineering portfolio.
