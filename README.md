@@ -8,7 +8,7 @@ My work focuses on the intersection of **software engineering, automation, APIs,
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### [OpsPilot](https://github.com/nickreid524-alt/OpsPilot)
 
@@ -28,10 +28,35 @@ OpsPilot:
 - Supports controlled corrections and re-evaluation
 - Maintains an auditable history of review decisions
 - Preserves original source evidence through the ingestion pipeline
-
-The project includes PostgreSQL migrations, Dockerized deployment, automated CI, type checking, linting, synthetic demo data, and PostgreSQL-specific regression coverage.
+- Uses PostgreSQL migrations and regression coverage to validate production-like behavior
+- Runs through a Dockerized multi-service environment with automated CI
 
 **[View OpsPilot →](https://github.com/nickreid524-alt/OpsPilot)**
+
+---
+
+### [ServiceLens](https://github.com/nickreid524-alt/ServiceLens)
+
+A local-first desktop work-order intelligence application that turns Excel maintenance exports into operational dashboards, exception queues, routing recommendations, and management reports.
+
+**Python · tkinter/ttk · OOXML · PDF · CSV · GitHub Actions**
+
+**2,084 synthetic work orders · 29 intelligence rules · 353-test suite · zero runtime dependencies**
+
+ServiceLens:
+
+- Reads `.xlsx` work-order exports using the Python standard library
+- Resolves inconsistent column names through a canonical schema and alias layer
+- Normalizes work-order data into a structured domain model
+- Evaluates 12 integrity rules and 17 operational intelligence rules
+- Classifies findings by severity and operational domain
+- Routes exceptions into actionable review queues
+- Explains the evidence, policy, thresholds, and fields behind each finding
+- Provides dashboard, explorer, intelligence, reporting, and rules interfaces
+- Generates PDF review packs, exception registers, and CSV exports
+- Runs entirely locally with no database, server, or cloud dependency
+
+**[View ServiceLens →](https://github.com/nickreid524-alt/ServiceLens)**
 
 ---
 
@@ -40,14 +65,14 @@ The project includes PostgreSQL migrations, Dockerized deployment, automated CI,
 **Languages**  
 Python · TypeScript · SQL
 
-**Backend**  
+**Backend & APIs**  
 FastAPI · REST APIs · SQLAlchemy · Alembic
 
-**Frontend**  
-Next.js · React
+**Frontend & Desktop**  
+Next.js · React · tkinter · ttk
 
-**Data**  
-PostgreSQL · Data Validation · Data Normalization
+**Data & Processing**  
+PostgreSQL · Excel / OOXML · CSV · Data Validation · Data Normalization · Rule Engines
 
 **Infrastructure & Engineering**  
 Docker · GitHub Actions · Automated Testing · CI/CD · Git
@@ -63,17 +88,31 @@ I'm particularly interested in:
 - Data-intensive applications
 - API integrations
 - AI-enabled business tools
-- Systems that combine automation with human review
-- Software that replaces spreadsheet-heavy or manual processes
+- Operational intelligence systems
+- Human-in-the-loop workflows
+- Local-first desktop software
+- Systems that replace spreadsheet-heavy or repetitive manual processes
 
 ---
 
-## Engineering Philosophy
+## Engineering Approach
 
 I care about software that solves real operational problems.
 
-That means building systems that are not only functional, but also **testable, auditable, maintainable, and understandable by the people who depend on them**.
+That means building systems that are not only functional, but also:
+
+- **Testable** — behavior is backed by automated validation
+- **Auditable** — important decisions and transformations can be understood
+- **Maintainable** — architecture keeps business logic separated from presentation
+- **Explainable** — users can understand why the system produced a result
+- **Practical** — technology choices are driven by the operational problem rather than complexity for its own sake
 
 ---
 
-More projects coming as I continue building out my engineering portfolio.
+## Current Focus
+
+I'm continuing to build projects around:
+
+**Operational software · data platforms · workflow automation · API integrations · AI-enabled tools · decision-support systems**
+
+More projects are coming as I continue expanding my engineering portfolio.
