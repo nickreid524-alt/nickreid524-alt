@@ -8,7 +8,7 @@ My work sits at the intersection of **software engineering, automation, data, AP
 
 ## Featured Project
 
-### [OpsPilot](/nickreid524-alt/OpsPilot)
+### [OpsPilot](https://github.com/nickreid524-alt/OpsPilot)
 
 Operational intake and exception automation platform built with **FastAPI, Next.js, PostgreSQL, and Docker**.
 
