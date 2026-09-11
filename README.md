@@ -1,14 +1,43 @@
 # Nicholas Reid
 
-### Software Engineer · AI Integrator · Operational Systems & Automation
+### AI Integrator · Software Engineer · Operational Systems & Automation
 
 I build software that turns fragmented data, repetitive workflows, and operational processes into reliable systems.
 
-My work focuses on the intersection of **software engineering, automation, APIs, data platforms, and AI-enabled internal tools**. I enjoy problems where understanding the underlying business process matters just as much as writing the code.
+My work focuses on **AI integration, software engineering, automation, APIs, data platforms, and operational tooling**. I’m particularly interested in systems where understanding the underlying business process matters just as much as writing the code.
 
 ---
 
 ## Featured Projects
+
+### [SignalForge](https://github.com/nickreid524-alt/SignalForge)
+
+An MCP-powered AI operations investigation platform that lets models gather evidence from synthetic operational systems, revise hypotheses, and produce grounded reports with citations and a complete observable investigation trace.
+
+**Python · MCP · Pydantic · Starlette · SQLite · React · TypeScript · Vite · SSE**
+
+**15 synthetic incident scenarios · 9 MCP tools · 342 backend tests · 54 frontend tests**
+
+SignalForge demonstrates:
+
+- Real Model Context Protocol client/server integration
+- Evidence-driven AI investigation workflows
+- Structured model outputs and typed agent actions
+- Hypothesis tracking and confidence revision
+- Evidence IDs and structural citation validation
+- Deterministic RAG over runbooks and historical incidents
+- Anthropic and OpenAI provider adapters
+- Scripted and replay providers for zero-cost deterministic demonstrations
+- Prompt-injection and tool-boundary defenses
+- SQLite-backed observable investigation traces
+- Real-time investigation updates over Server-Sent Events
+- Deterministic AI evaluation across 15 authored failure scenarios
+
+The scripted benchmark completes all 15 scenarios with **100% citation validity, zero unsupported claims, 96.8% decisive evidence recall, and zero red-herring adoption**.
+
+**[View SignalForge →](https://github.com/nickreid524-alt/SignalForge)**
+
+---
 
 ### [OpsPilot](https://github.com/nickreid524-alt/OpsPilot)
 
@@ -49,7 +78,6 @@ ServiceLens:
 - Resolves inconsistent column names through a canonical schema and alias layer
 - Normalizes work-order data into a structured domain model
 - Evaluates 12 integrity rules and 17 operational intelligence rules
-- Classifies findings by severity and operational domain
 - Routes exceptions into actionable review queues
 - Explains the evidence, policy, thresholds, and fields behind each finding
 - Provides dashboard, explorer, intelligence, reporting, and rules interfaces
@@ -60,38 +88,41 @@ ServiceLens:
 
 ---
 
+## Engineering Focus
+
+I’m particularly interested in building:
+
+- AI-enabled operational systems
+- Agentic workflows with controlled tool use
+- Model Context Protocol integrations
+- Internal platforms and workflow automation
+- Data-intensive applications
+- API integrations and backend services
+- Human-in-the-loop systems
+- Operational intelligence and decision-support tools
+- Systems that replace spreadsheet-heavy or repetitive manual processes
+
+---
+
 ## Tech
 
 **Languages**  
 Python · TypeScript · SQL
 
+**AI & Agent Systems**  
+Model Context Protocol (MCP) · Tool Calling · RAG · Structured Outputs · AI Evaluations · Evidence Grounding · Provider Abstraction
+
 **Backend & APIs**  
-FastAPI · REST APIs · SQLAlchemy · Alembic
+FastAPI · Starlette · REST APIs · SSE · Pydantic · SQLAlchemy · Alembic
 
 **Frontend & Desktop**  
-Next.js · React · tkinter · ttk
+React · Next.js · Vite · tkinter · ttk
 
 **Data & Processing**  
-PostgreSQL · Excel / OOXML · CSV · Data Validation · Data Normalization · Rule Engines
+PostgreSQL · SQLite · Excel / OOXML · CSV · FTS5 · Data Validation · Data Normalization · Rule Engines
 
 **Infrastructure & Engineering**  
 Docker · GitHub Actions · Automated Testing · CI/CD · Git
-
----
-
-## What I'm Building
-
-I'm particularly interested in:
-
-- Internal operational platforms
-- Workflow automation
-- Data-intensive applications
-- API integrations
-- AI-enabled business tools
-- Operational intelligence systems
-- Human-in-the-loop workflows
-- Local-first desktop software
-- Systems that replace spreadsheet-heavy or repetitive manual processes
 
 ---
 
@@ -99,20 +130,20 @@ I'm particularly interested in:
 
 I care about software that solves real operational problems.
 
-That means building systems that are not only functional, but also:
+That means building systems that are:
 
 - **Testable** — behavior is backed by automated validation
-- **Auditable** — important decisions and transformations can be understood
-- **Maintainable** — architecture keeps business logic separated from presentation
+- **Auditable** — important decisions and transformations can be inspected
+- **Grounded** — AI-generated conclusions can be traced back to evidence
+- **Maintainable** — business logic is separated from presentation and infrastructure
 - **Explainable** — users can understand why the system produced a result
+- **Secure by design** — trust boundaries and tool permissions are explicit
 - **Practical** — technology choices are driven by the operational problem rather than complexity for its own sake
 
 ---
 
 ## Current Focus
 
-I'm continuing to build projects around:
+I’m continuing to build around:
 
-**Operational software · data platforms · workflow automation · API integrations · AI-enabled tools · decision-support systems**
-
-More projects are coming as I continue expanding my engineering portfolio.
+**AI integration · operational software · agentic workflows · data platforms · workflow automation · API integrations · decision-support systems**
